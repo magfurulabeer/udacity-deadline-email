@@ -1,0 +1,48 @@
+{
+    "hero": "ENROLL TODAY, SAVE UP TO $120",
+    "closing": "Enrollment Closing Tuesday!",
+    "code": "<p>Use the code <strong>MAX2019 to save up to $120</strong> on your tuition. Enroll in any program by Tuesday, April 30, to reserve your seat in the upcoming May classes!</p>",
+    "programs": [
+        [
+            {
+                "name": "Self-Driving Car Engineer<br />Nanodegree program",
+                "date": "Closes April 30",
+                "image": "square-1.jpg"
+            },
+            {
+                "name": "Data Analyst<br />Nanodegree program",
+                "date": "Closes April 30",
+                "image": "square-2.jpg"
+            }
+        ],
+        [
+            {
+                "name": "Deep Learning<br />Nanodegree program",
+                "date": "Closes April 30",
+                "image": "square-3.jpg"
+            },
+            {
+                "name": "Intro to Programming<br />Nanodegree program",
+                "date": "Closes April 30",
+                "image": "square-3.jpg"
+            }
+        ],
+        [
+            {
+                "name": "Full Stack<br />Nanodegree program",
+                "date": "Closes April 30",
+                "image": "square-4.jpg"
+            },
+            {
+                "name": "Data Engineer<br />Nanodegree program",
+                "date": "Closes April 30",
+                "image": "square-5.jpg"
+            }
+        ]
+    ],
+    "contact": {
+        "header": "Got Questions? Connect with Us.",
+        "text": "Book an appointment, use our live chat or call in to speak to an advisor directly and ask your questions.",
+        "callToAction": "Connect With Us ➡"
+    }
+}

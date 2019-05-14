@@ -1,59 +1,176 @@
-// These are the styles to make some of the templates look extra nice.
-// Feel free to remove these styles for production!
+// // These are the styles to make some of the templates look extra nice.
+// // Feel free to remove these styles for production!
 
-// Body Styles 
-body,
-html, 
-.body {
-  background: #f3f3f3 !important;
+// // Body Styles 
+* {
+  padding: 0;
+  margin: 0;
+  hyphens: none;
 }
 
-.container.header {
-  background: #f3f3f3;
+// body,
+// html, 
+// .body {
+//   background: #fafbfc !important;
+// }
+
+.hero {
+  background-image: url("/assets/img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 80px !important;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+
+  img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    text-align: left;
+    color: white;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    width: 300px;
+  }
 }
 
-.body-drip {
-  border-top: 8px solid #663399;
+.logo-header {
+  background-color: clear !important;
+  
+  img {
+    height: 27px !important; 
+    width: 152px !important;
+  }
 }
 
-// Full Width Headers
-.header {
-  background: #8a8a8a;
+.content {
+  padding-top: 30px !important;
+  padding-bottom: 0px !important;
+
+  h2 {
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  p {
+    text-align: center;
+    color: #102231;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    padding-left: 75px;
+    padding-right: 75px;
+    line-height: 1.5;
+  }
+
+  .button {
+    margin-bottom: 50px;
+    a {
+      background-color: #01b3e3;
+      padding-top: 14px !important;
+      padding-bottom: 14px !important;
+      padding-left: 45px !important;
+      padding-right: 45px !important;
+      text-transform: uppercase;
+      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      text-align: center;
+      letter-spacing: 2px;
+    }
+  }
 }
 
-.header .columns {
-  padding-bottom: 0;
+.program {
+  width: 185px !important;
+
+  h4 {
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    line-height: 20px;
+    color: #132431;
+  }
+
+  p {
+    text-align: center;
+    color: #02b3e4;
+    margin-bottom: 20px;
+  }
+  img {
+    height: 120px;
+    width: 140px;
+  }
+
+  a {
+    display: inline-block !important;
+    background-color: clear;
+    text-align: center;
+    text-decoration: none;
+    color: #01b3e3;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+    font-family: 'Open+Sans','Open Sans',Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #01b3e3;
+    border-radius: 5px;
+  }
 }
 
-.header p {
-  color: #fff;
-  padding-top: 15px;
-}
+.contact {
+  padding-top: 40px;
+  padding-bottom: 40px !important;
+  padding-left: 90px !important;
+  padding-right: 90px !important;
+  background-color: #17304a;
+  text-align: center !important;
+  color: white !important;
 
-.header .wrapper-inner {
-  padding: 20px;
-}
+  h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Open+Sans','Open Sans',Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-weight: medium;
+  }
 
-.header .container {
-  background: transparent;
-}
+  p {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Open+Sans','Open Sans',Helvetica,Arial,sans-serif;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
 
-// Social Media
-table.button.facebook table td {
-  background: #3B5998 !important;
-  border-color: #3B5998;
-}
-
-table.button.twitter table td {
-  background: #1daced !important;
-  border-color: #1daced;
-}
-
-table.button.google table td {
-  background: #DB4A39 !important;
-  border-color: #DB4A39;
-}
-
-.wrapper.secondary {
-  background: #f3f3f3;
+  a {
+    display: block !important;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
